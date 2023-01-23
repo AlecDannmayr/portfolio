@@ -1,0 +1,929 @@
+/** @format */
+@import url(/Users/alecdannmayr/portfolio/portfolio/src/theme/svgs/css/responsive.css);
+#arrowDown {
+  background-color: yellow;
+  z-index: -100;
+}
+
+#doubleArrow {
+  z-index: -100;
+  position: absolute;
+  stroke: none;
+  fill: currentcolor;
+  color: #4a5568;
+  width: 6rem;
+  left: 40%;
+  top: 70%;
+  z-index: -101;
+}
+
+#triangle {
+  z-index: -100;
+  position: absolute;
+  stroke: currentColor;
+  fill: none;
+  color: ORANGE;
+  width: 13rem;
+  left: 10%;
+  top: 20%;
+}
+
+#square {
+  z-index: -100;
+  position: absolute;
+  stroke: none;
+  fill: currentcolor;
+  color: #805ad5;
+  width: 8rem;
+  left: 5%;
+  top: 90%;
+}
+
+#cross {
+  z-index: -100;
+  position: absolute;
+  stroke: currentColor;
+  fill: none;
+  color: #ed64a6;
+  width: 4.5rem;
+  left: 28%;
+  top: 15%;
+}
+
+#arrowUp {
+  z-index: -100;
+  background-color: purple;
+}
+
+#hexagon {
+  z-index: -100;
+  position: absolute;
+  stroke: currentColor;
+  fill: none;
+  color: #e53e3e;
+  width: 13rem;
+  left: 60%;
+  top: 50%;
+}
+
+#circle {
+  position: absolute;
+  stroke: none;
+  fill: currentcolor;
+  z-index: -100;
+  color: #48bb78;
+  width: 16rem;
+  right: -3%;
+  top: 5%;
+}
+
+#doubleTriangle {
+  position: absolute;
+  stroke: none;
+  fill: currentcolor;
+  z-index: -100;
+  color: #3182ce;
+  width: 4rem;
+  left: 80%;
+  top: 10%;
+}
+
+#static-square-1 {
+  position: absolute;
+  stroke: none;
+  fill: currentcolor;
+  z-index: -100;
+  z-index: -100;
+  color: #2d3748;
+  width: 3rem;
+  left: 40%;
+  top: 30%;
+}
+
+#static-square-2 {
+  position: absolute;
+  stroke: none;
+  fill: currentcolor;
+  z-index: -100;
+  z-index: -100;
+  color: #2d3748;
+  width: 1.5rem;
+  left: 10%;
+  top: 10%;
+}
+
+#static-square-3 {
+  position: absolute;
+  stroke: none;
+  fill: currentcolor;
+  z-index: -100;
+  z-index: -100;
+  color: #4a5568;
+  width: 1.5rem;
+  left: 60%;
+  top: 15%;
+}
+
+#static-square-4 {
+  position: absolute;
+  stroke: none;
+  fill: currentcolor;
+  z-index: -100;
+  z-index: -100;
+  color: #ed8936;
+  width: 1.5rem;
+  left: 10%;
+  top: 134%;
+}
+
+#static-square-5 {
+  position: absolute;
+  stroke: none;
+  fill: currentcolor;
+  z-index: -100;
+  z-index: -100;
+  color: #ecc94b;
+  width: 3rem;
+  left: 29%;
+  top: 166%;
+}
+
+#static-square-6 {
+  position: absolute;
+  stroke: none;
+  fill: currentcolor;
+  z-index: -100;
+  z-index: -100;
+  color: #fff;
+  width: 1.5rem;
+  left: 85%;
+  top: 225%;
+}
+
+#static-square-7 {
+  position: absolute;
+  stroke: none;
+  fill: currentcolor;
+  z-index: -100;
+  z-index: -100;
+  color: #ed8936;
+  width: 2rem;
+  left: 10%;
+  top: 300%;
+}
+
+#static-square-8 {
+  position: absolute;
+  stroke: none;
+  fill: currentcolor;
+  z-index: -100;
+  z-index: -100;
+  color: #3182ce;
+  width: 1.5rem;
+  left: 50%;
+  top: 325%;
+}
+
+#static-square-9 {
+  position: absolute;
+  stroke: none;
+  fill: currentcolor;
+  z-index: -100;
+  z-index: -100;
+  color: #2d3748;
+  width: 3rem;
+  left: 20%;
+  top: 270%;
+}
+
+#static-circle-1 {
+  position: absolute;
+  stroke: none;
+  fill: currentcolor;
+  z-index: -100;
+  z-index: -100;
+  color: #2d3748;
+  width: 3rem;
+  left: 40%;
+  top: 30%;
+}
+
+#static-circle-2 {
+  position: absolute;
+  stroke: none;
+  fill: currentcolor;
+  z-index: -100;
+  z-index: -100;
+  color: #2d3748;
+  width: 1.5rem;
+  left: 10%;
+  top: 10%;
+}
+
+#static-circle-3 {
+  position: absolute;
+  stroke: none;
+  fill: currentcolor;
+  z-index: -100;
+  z-index: -100;
+  color: #4a5568;
+  width: 1.5rem;
+  left: 60%;
+  top: 15%;
+}
+
+#static-circle-4 {
+  position: absolute;
+  stroke: none;
+  fill: currentcolor;
+  z-index: -100;
+  z-index: -100;
+  color: #ed8936;
+  width: 1.5rem;
+  left: 10%;
+  top: 134%;
+}
+
+#static-circle-5 {
+  position: absolute;
+  stroke: none;
+  fill: currentcolor;
+  z-index: -100;
+  z-index: -100;
+  color: #ecc94b;
+  width: 3rem;
+  left: 29%;
+  top: 166%;
+}
+
+#static-circle-6 {
+  position: absolute;
+  stroke: none;
+  fill: currentcolor;
+  z-index: -100;
+  z-index: -100;
+  color: #fff;
+  width: 1.5rem;
+  left: 85%;
+  top: 225%;
+}
+
+#static-circle-7 {
+  position: absolute;
+  stroke: none;
+  fill: currentcolor;
+  z-index: -100;
+  z-index: -100;
+  color: #ed8936;
+  width: 2rem;
+  left: 10%;
+  top: 300%;
+}
+
+#static-circle-8 {
+  position: absolute;
+  stroke: none;
+  fill: currentcolor;
+  z-index: -100;
+  z-index: -100;
+  color: #3182ce;
+  width: 1.5rem;
+  left: 50%;
+  top: 325%;
+}
+
+#static-circle-9 {
+  position: absolute;
+  stroke: none;
+  fill: currentcolor;
+  z-index: -100;
+  z-index: -100;
+  color: #2d3748;
+  width: 3rem;
+  left: 20%;
+  top: 270%;
+}
+
+#static-circle-10 {
+  position: absolute;
+  stroke: none;
+  fill: currentcolor;
+  z-index: -100;
+  z-index: -100;
+  color: #ecc94b;
+  width: 3rem;
+  left: 29%;
+  top: 166%;
+}
+
+#static-circle-11 {
+  position: absolute;
+  stroke: none;
+  fill: currentcolor;
+  z-index: -100;
+  z-index: -100;
+  color: #fff;
+  width: 1.5rem;
+  left: 85%;
+  top: 225%;
+}
+
+#static-circle-12 {
+  position: absolute;
+  stroke: none;
+  fill: currentcolor;
+  z-index: -100;
+  z-index: -100;
+  color: #ed8936;
+  width: 2rem;
+  left: 10%;
+  top: 300%;
+}
+
+#static-circle-13 {
+  position: absolute;
+  stroke: none;
+  fill: currentcolor;
+  z-index: -100;
+  z-index: -100;
+  color: #3182ce;
+  width: 1.5rem;
+  left: 50%;
+  top: 325%;
+}
+
+#static-circle-14 {
+  position: absolute;
+  stroke: none;
+  fill: currentcolor;
+  z-index: -100;
+  z-index: -100;
+  color: #2d3748;
+  width: 3rem;
+  left: 20%;
+  top: 270%;
+}
+
+#static-circle-15 {
+  position: absolute;
+  stroke: none;
+  fill: currentcolor;
+  z-index: -100;
+  z-index: -100;
+  color: #2d3748;
+  width: 3rem;
+  left: 20%;
+  top: 270%;
+}
+
+#static-triangle-1 {
+  color: #4a5568;
+  position: absolute;
+  stroke: currentColor;
+  z-index: -100;
+  fill: none;
+  width: 2rem;
+  left: 25%;
+  top: 5%;
+}
+
+#static-triangle-2 {
+  position: absolute;
+  stroke: currentColor;
+  z-index: -100;
+  fill: none;
+  color: #fff;
+  width: 3rem;
+  left: 90%;
+  top: 50%;
+}
+
+#static-triangle-3 {
+  position: absolute;
+  stroke: currentColor;
+  z-index: -100;
+  fill: none;
+  color: #2d3748;
+  width: 4rem;
+  left: 30%;
+  top: 65%;
+}
+
+#static-triangle-4 {
+  position: absolute;
+  stroke: currentColor;
+  z-index: -100;
+  fill: none;
+  color: #ed8936;
+  width: 2rem;
+  left: 25%;
+  top: 130%;
+}
+
+#static-triangle-5 {
+  position: absolute;
+  stroke: currentColor;
+  z-index: -100;
+  fill: none;
+  color: #fff;
+  width: 3rem;
+  left: 90%;
+  top: 170%;
+}
+
+#static-triangle-6 {
+  position: absolute;
+  stroke: currentColor;
+  z-index: -100;
+  fill: none;
+  color: #fff;
+  width: 4rem;
+  left: 18%;
+  top: 335%;
+}
+
+#static-triangle-7 {
+  position: absolute;
+  stroke: currentColor;
+  z-index: -100;
+  fill: none;
+  color: #02b4fa;
+  width: 2rem;
+  left: 25%;
+  top: 300%;
+}
+
+#static-triangle-8 {
+  position: absolute;
+  stroke: currentColor;
+  z-index: -100;
+  fill: none;
+  color: var(--theme-ui-colors-icon_brightest);
+  width: 3rem;
+  left: 95%;
+  top: 450%;
+}
+
+#static-triangle-9 {
+  position: absolute;
+  stroke: currentColor;
+  z-index: -100;
+  fill: none;
+  color: #3182ce;
+  width: 6rem;
+  left: 55%;
+  top: 250%;
+}
+
+#static-triangle-10 {
+  position: absolute;
+  stroke: currentColor;
+  z-index: -100;
+  fill: none;
+  color: #02b4fa;
+  width: 6rem;
+  left: 15%;
+  top: 200%;
+}
+
+#static-triangle-11 {
+  position: absolute;
+  stroke: currentColor;
+  z-index: -100;
+  fill: none;
+  color: #2d3748;
+  width: 6rem;
+  left: 65%;
+  top: 130%;
+}
+
+#static-circle-1 {
+  position: absolute;
+  stroke: none;
+  fill: currentcolor;
+  z-index: -100;
+  color: #2d3748;
+  width: 1.5rem;
+  left: 4%;
+  top: 20%;
+}
+
+#static-circle-2 {
+  position: absolute;
+  stroke: none;
+  fill: currentcolor;
+  z-index: -100;
+  color: #2d3748;
+  width: 3rem;
+  left: 50%;
+  top: 60%;
+}
+
+#static-circle-3 {
+  position: absolute;
+  stroke: none;
+  fill: currentcolor;
+  z-index: -100;
+  color: #4a5568;
+  width: 6rem;
+  left: 5%;
+  top: 70%;
+}
+
+#static-circle-4 {
+  position: absolute;
+  stroke: currentColor;
+  z-index: -100;
+  fill: currentcolor;
+  color: #2d3748;
+  width: 1.5rem;
+  left: 75%;
+  top: 10%;
+}
+
+#static-circle-5 {
+  position: absolute;
+  stroke: none;
+  fill: currentcolor;
+  z-index: -100;
+  color: #4a5568;
+  width: 4rem;
+  left: 70%;
+  top: 90%;
+}
+
+#static-circle-6 {
+  position: absolute;
+  stroke: none;
+  fill: currentcolor;
+  z-index: -100;
+  color: #fff;
+  width: 1.5rem;
+  left: 4%;
+  top: 160%;
+}
+
+#static-circle-7 {
+  position: absolute;
+  stroke: none;
+  fill: currentcolor;
+  z-index: -100;
+  color: #fff;
+  width: 1.5rem;
+  left: 4%;
+  top: 170%;
+}
+
+#static-circle-8 {
+  position: absolute;
+  stroke: none;
+  fill: currentcolor;
+  z-index: -100;
+  color: #fff;
+  width: 6rem;
+  left: 17%;
+  top: 230%;
+}
+
+#static-circle-9 {
+  position: absolute;
+  stroke: none;
+  fill: currentcolor;
+  z-index: -100;
+  color: #ecc94b;
+  width: 4rem;
+  left: 70%;
+  top: 300%;
+}
+
+#static-circle-10 {
+  position: absolute;
+  stroke: none;
+  fill: currentcolor;
+  z-index: -100;
+  color: #fff;
+  width: 1.5rem;
+  left: 4%;
+  top: 330%;
+}
+
+#static-circle-11 {
+  position: absolute;
+  stroke: none;
+  fill: currentcolor;
+  z-index: -100;
+  color: #2d3748;
+  width: 3rem;
+  left: 70%;
+  top: 400%;
+}
+
+#static-circle-12 {
+  position: absolute;
+  stroke: none;
+  fill: currentcolor;
+  z-index: -100;
+  color: white;
+  width: 1rem;
+  left: 90%;
+  top: 330%;
+}
+
+#static-circle-13 {
+  position: absolute;
+  stroke: none;
+  fill: currentcolor;
+  z-index: -100;
+  color: #e2e22b;
+  width: 2.5rem;
+  left: 45%;
+  top: 140%;
+}
+
+#static-circle-14 {
+  position: absolute;
+  stroke: none;
+  fill: currentcolor;
+  z-index: -100;
+  color: #e2e22b;
+  width: 6rem;
+  left: 25%;
+  top: 370%;
+}
+
+#static-circle-15 {
+  position: absolute;
+  stroke: none;
+  fill: currentcolor;
+  z-index: -100;
+  color: #ffffff;
+  width: 3rem;
+  left: 10%;
+  top: 460%;
+}
+
+#static-hexagon-1 {
+  position: absolute;
+  stroke: currentColor;
+  z-index: -100;
+  fill: none;
+  color: #4a5568;
+  width: 4rem;
+  left: 10%;
+  top: 50%;
+}
+
+#static-hexagon-2 {
+  position: absolute;
+  stroke: currentColor;
+  z-index: -100;
+  fill: none;
+  color: #e53e3e;
+  width: 4rem;
+  left: 75%;
+  top: 200%;
+}
+
+#static-hexagon-3 {
+  position: absolute;
+  stroke: currentColor;
+  z-index: -100;
+  fill: none;
+  color: #4a5568;
+  width: 2rem;
+  left: 20%;
+  top: 370%;
+}
+
+#static-hexagon-4 {
+  position: absolute;
+  stroke: currentColor;
+  z-index: -100;
+  fill: none;
+  color: #4a5568;
+  width: 5rem;
+  left: 40%;
+  top: 430%;
+}
+
+#static-hexagon-5 {
+  position: absolute;
+  stroke: currentColor;
+  z-index: -100;
+  fill: none;
+  color: #fff;
+  width: 2rem;
+  left: 80%;
+  top: 60%;
+}
+
+#static-doubleArrow-1 {
+  position: absolute;
+  stroke: none;
+  fill: currentcolor;
+  z-index: -100;
+  color: #2d3748;
+  width: 2rem;
+  left: 45%;
+  top: 10%;
+}
+
+#static-doubleArrow-2 {
+  position: absolute;
+  stroke: none;
+  fill: currentcolor;
+  z-index: -100;
+  color: #2d3748;
+  width: 2rem;
+  left: 95%;
+  top: 90%;
+}
+
+#static-doubleArrow-3 {
+  position: absolute;
+  stroke: none;
+  fill: currentcolor;
+  z-index: -100;
+  color: #48bb78;
+  width: 2rem;
+  left: 45%;
+  top: 210%;
+}
+
+#static-doubleArrow-4 {
+  position: absolute;
+  stroke: none;
+  fill: currentcolor;
+  z-index: -100;
+  width: 2rem;
+  left: 70%;
+  top: 170%;
+}
+
+#static-doubleArrow-5 {
+  position: absolute;
+  stroke: none;
+  fill: currentcolor;
+  z-index: -100;
+  color: #bb4848;
+  width: 2rem;
+  left: 45%;
+  top: 410%;
+}
+
+#static-doubleArrow-6 {
+  position: absolute;
+  stroke: none;
+  fill: currentcolor;
+  z-index: -100;
+  color: #bb4848;
+  width: 2rem;
+  left: 75%;
+  top: 270%;
+}
+
+#static-doubleArrow-7 {
+  position: absolute;
+  stroke: none;
+  fill: currentcolor;
+  z-index: -100;
+  color: #4a5568;
+  width: 2rem;
+  left: 15%;
+  top: 400%;
+}
+
+#static-doubleArrow-8 {
+  position: absolute;
+  stroke: none;
+  fill: currentcolor;
+  z-index: -100;
+  color: #bb4848;
+  width: 8rem;
+  left: 75%;
+  top: 430%;
+}
+
+#static-doubleTriangle-1 {
+  position: absolute;
+  stroke: none;
+  fill: currentcolor;
+  z-index: -100;
+  color: #bb4848;
+  width: 5rem;
+  left: 17%;
+  top: 150%;
+}
+
+#static-doubleTriangle-2 {
+  position: absolute;
+  stroke: none;
+  fill: currentcolor;
+  z-index: -100;
+  color: ORANGE;
+  width: 5rem;
+  left: 77%;
+  top: 350%;
+}
+
+#static-doubleTriangle-3 {
+  position: absolute;
+  stroke: none;
+  fill: currentcolor;
+  z-index: -100;
+  color: ORANGE;
+  width: 2rem;
+  left: 77%;
+  top: 110%;
+}
+
+#hexagon,
+#triangle,
+#static-square-3,
+#static-triangle-4,
+#static-doubleArrow-4,
+#static-circle-8,
+#static-square-6,
+#static-doubleArrow-5,
+#static-circle-15,
+#static-doubleArrow-6,
+#static-square-7,
+#static-doubleArrow-8 {
+  -webkit-animation: down-pulse 10s ease infinite;
+          animation: down-pulse 10s ease infinite;
+}
+
+@-webkit-keyframes down-pulse {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  50% {
+    -webkit-transform: translateY(30px);
+            transform: translateY(30px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+
+@keyframes down-pulse {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  50% {
+    -webkit-transform: translateY(30px);
+            transform: translateY(30px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+
+#static-triangle-2,
+#doubleTriangle,
+#static-circle-4,
+#static-doubleArrow-1,
+#cross,
+#static-triangle-3,
+#static-circle-5,
+#static-doubleTriangle-2,
+#static-circle-14,
+#static-triangle-6 {
+  -webkit-animation: down-up 24s ease infinite;
+          animation: down-up 24s ease infinite;
+}
+
+@-webkit-keyframes down-up {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  50% {
+    -webkit-transform: translateY(100px);
+            transform: translateY(100px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+
+@keyframes down-up {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  50% {
+    -webkit-transform: translateY(100px);
+            transform: translateY(100px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+/*# sourceMappingURL=shapeStyle.css.map */
