@@ -32,7 +32,7 @@ html a:hover {
 }
 
 #light {
-  background-color: #ffffff;
+  background-color: #e2e2e2;
   width: 100vw;
   height: 100vh;
   position: absolute;
@@ -282,13 +282,6 @@ html a:hover {
   font-size: 12px;
 }
 
-#imageContainer:hover {
-  -webkit-filter: blur(6px);
-          filter: blur(6px);
-  transition: 3s -webkit-filter linear;
-  cursor: pointer;
-}
-
 #imageContainer:hover + #show {
   display: block;
 }
@@ -296,6 +289,7 @@ html a:hover {
 #imageContainer:hover {
   -webkit-filter: brightness(50%);
           filter: brightness(50%);
+  transition: 3s -webkit-filter linear;
 }
 
 .tags > * {
@@ -312,17 +306,6 @@ html a:hover {
 #imageContainer {
   position: relative;
   z-index: 200;
-}
-
-#show {
-  position: absolute;
-  z-index: 1000;
-  top: 45%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
-  display: none;
-  color: #ffffff;
 }
 
 .contact-type {

@@ -7,23 +7,27 @@ import "./theme/svgs/css/responsive.css";
 import Intro from "./pages/intro";
 import About from "./pages/about";
 import Projects from "../src/pages/projects";
+import Copyright from "../src/components/copyright"
 
 function App() {
+  const [theme, setTheme] = useState("dark");
 
-  const handleSetTheme = (props) => {
-    console.log(props)
-  }
+  const toggleTheme = (props) => {
+    setTheme((curr) => (curr === "light" ? "dark" : "light"));
+  };
+
 
   return (
-  <div className="App" setNewTheme={handleSetTheme} id={"theme"}>  
+  <div className="App" id={theme}>  
         <BrowserRouter>
-        <Nav />
+        <Nav themeToggled={theme} onChangeSwitch={toggleTheme}/>
           <Routes>
             <Route path="/" exact element={<Intro />} />
             <Route path="/about" element={<About />} />
             <Route path="/projects" element={<Projects />} />
           </Routes>
         </BrowserRouter>
+        <Copyright themeToggled={theme}/>
         <Background />
       </div>
   );

@@ -39,7 +39,7 @@ html {
 }
 
 #light {
-    background-color: #ffffff;
+    background-color: #e2e2e2;
     width: 100vw;
     height: 100vh;
     position: absolute;
@@ -217,18 +217,17 @@ justify-content: center;
         font-size: 12px;
     }
 }
-#imageContainer:hover {
-    filter: blur(6px);
-    transition: 3s -webkit-filter linear;
-    cursor: pointer;
-}
-
 #imageContainer:hover + #show {
     display: block;
 }
 
 #imageContainer:hover {
     filter: brightness(50%);
+    transition: 3s -webkit-filter linear;
+}
+
+
+#show:hover + #imageContainer {
 }
 
 .tags > * {
@@ -247,15 +246,7 @@ justify-content: center;
     z-index: 200;
 }
 
-#show {
-    position: absolute;
-    z-index: 1000;
-    top: 45%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    display: none;
-    color: #ffffff;
-}
+
 
 .contact-type {
     display: flex;

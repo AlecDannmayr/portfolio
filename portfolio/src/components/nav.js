@@ -1,6 +1,6 @@
 /** @format */
 
-import React, {useState, useEffect} from "react";
+import React from "react";
 import Logo from "../images/Accesss-Autonomy-Logo.ico";
 import { Link } from "react-router-dom";
 import ReactSwitch from "react-switch";
@@ -13,13 +13,9 @@ import {
 } from "react-icons/fa";
 
 const Nav = (props) => {
-
-    const [theme, setTheme] = useState("dark");
-
-    const toggleTheme = () => {
-      setTheme((curr) => (curr === "light" ? "dark" : "light"));
-    };
-
+  const toggleTheme = (event) => {
+    props.onChangeSwitch(event);
+  };
   return (
     <div className="nav-main">
       <div id={"nav-main-logo"}>
@@ -41,13 +37,13 @@ const Nav = (props) => {
         <Link to="/contacts">
           <FaLinkedinIn />
         </Link>
-              <div className="switch">
-        <ReactSwitch
-          value={theme}
-          onChange={toggleTheme}
-          checked={theme === "dark"}
-        />
-      </div>
+        <div className="switch">
+          <ReactSwitch
+            value={props.themeToggled}
+            onChange={toggleTheme}
+            checked={props.themeToggled === "dark"}
+          />
+        </div>
       </div>
     </div>
   );
