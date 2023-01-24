@@ -1,193 +1,90 @@
 /** @format */
 
-import * as React from 'react'
-import { useState, useEffect } from 'react'
-import '../css/style.css'
-import '../theme/svgs/css/responsive.css'
-//import 'animate.css'
-import Styled from "styled-components"
-import ProjectImgTwo from '../project-images/image-two.png'
-import ProjectImgSix from '../project-images/image-six.png'
-import ProjectImgThree from '../project-images/image-three.png'
-import ProjectImgFour from '../project-images/image-four.png'
-import ProjectImgFive from '../project-images/image-five.png'
-import ProjectImgSeven from '../project-images/image-seven.png'
-import ProjectImgEight from '../project-images/image-eight.png'
-import ProjectImgNine from '../project-images/image-nine.png'
-import ProjectImgTen from '../project-images/image-ten.png'
-import ImageList from '@mui/material/ImageList'
-import ImageListItem from '@mui/material/ImageListItem'
-import Backdrop from '@mui/material/Backdrop';
-import CircularProgress from '@mui/material/CircularProgress';
-import Button from '@mui/material/Button';
-
+import React from "react";
+import { useState, useEffect } from "react";
+import "../css/style.css";
+import "../theme/svgs/css/responsive.css";
+import ProjectImgTwo from "../project-images/image-two.png";
+import ProjectImgSix from "../project-images/image-six.png";
+import ProjectImgThree from "../project-images/image-three.png";
+import ProjectImgFour from "../project-images/image-four.png";
+import ProjectImgFive from "../project-images/image-five.png";
+import ProjectImgSeven from "../project-images/image-seven.png";
+import ProjectImgEight from "../project-images/image-eight.png";
+import ProjectImgNine from "../project-images/image-nine.png";
+import ProjectImgTen from "../project-images/image-ten.png";
+import ImageList from "@mui/material/ImageList";
+import ImageListItem from "@mui/material/ImageListItem";
 
 const imageContainer = {
-    height: '100vh',
-    overflow: 'auto',
-    marginLeft: '90px',
-    marginTop: '0px',
-}
-
+  height: "100vh",
+  overflow: "auto",
+  marginLeft: "90px",
+  marginTop: "0px",
+};
 
 const images = [
-    {
-        img: ProjectImgSix,
-        title: 'Arch-Simplified',
-        tag: 'Build',
-    },
-    {
-        img: ProjectImgTwo,
-        title: 'Cricket Scoreboard',
-        tag: 'Build',
-    },
-    {
-        img: ProjectImgThree,
-        title: 'Betting Platform',
-        tag: 'UX/UI',
-    },
-    {
-        img: ProjectImgEight,
-        title: 'SocialWorks',
-        tag: 'UX/UI',
-    },
-    {
-        img: ProjectImgNine,
-        title: 'VisualSkies',
-        tag: 'Build',
-    },
-    {
-        img: ProjectImgFive,
-        title: 'SalesImpact.io',
-        tag: 'Build',
-    },
-    {
-        img: ProjectImgFour,
-        title: 'Honey',
-        tag: 'UX/UI',
-    },
-    {
-        img: ProjectImgTen,
-        title: 'VisitBritian',
-        tag: 'UX/UI',
-    },
-    {
-        img: ProjectImgSeven,
-        title: 'DecimalCricket',
-        tag: 'UX/UI',
-    },
-    {
-        img: ProjectImgEight,
-        title: 'SocialWorks',
-        tag: 'UX/UI',
-    },
-    {
-        img: ProjectImgNine,
-        title: 'VisualSkies',
-        tag: 'Build',
-    },
-    {
-        img: ProjectImgFive,
-        title: 'SalesImpact.io',
-        tag: 'Build',
-    },
-    {
-        img: ProjectImgFour,
-        title: 'Honey',
-        tag: 'UX/UI',
-    },
-    {
-        img: ProjectImgTen,
-        title: 'VisitBritian',
-        tag: 'UX/UI',
-    },
-    {
-        img: ProjectImgSeven,
-        title: 'DecimalCricket',
-        tag: 'UX/UI',
-    },
-    {
-        img: ProjectImgSix,
-        title: 'Arch-Simplified',
-        tag: 'Build',
-    },
-    {
-        img: ProjectImgTwo,
-        title: 'Cricket Scoreboard',
-        tag: 'Build',
-    },
-    {
-        img: ProjectImgThree,
-        title: 'Betting Platform',
-        tag: 'UX/UI',
-    },
-    {
-        img: ProjectImgEight,
-        title: 'SocialWorks',
-        tag: 'UX/UI',
-    },
-    {
-        img: ProjectImgNine,
-        title: 'VisualSkies',
-        tag: 'Build',
-    },
-    {
-        img: ProjectImgFive,
-        title: 'SalesImpact.io',
-        tag: 'Build',
-    },
-    {
-        img: ProjectImgFour,
-        title: 'Honey',
-        tag: 'UX/UI',
-    },
-    {
-        img: ProjectImgTen,
-        title: 'VisitBritian',
-        tag: 'UX/UI',
-    },
-    {
-        img: ProjectImgSeven,
-        title: 'DecimalCricket',
-        tag: 'UX/UI',
-    },
-    {
-        img: ProjectImgEight,
-        title: 'SocialWorks',
-        tag: 'UX/UI',
-    },
-    {
-        img: ProjectImgNine,
-        title: 'VisualSkies',
-        tag: 'Build',
-    },
-    {
-        img: ProjectImgFive,
-        title: 'SalesImpact.io',
-        tag: 'Build',
-    },
-    {
-        img: ProjectImgFour,
-        title: 'Honey',
-        tag: 'UX/UI',
-    },
-    {
-        img: ProjectImgTen,
-        title: 'VisitBritian',
-        tag: 'UX/UI',
-    },
-    {
-        img: ProjectImgSeven,
-        title: 'DecimalCricket',
-        tag: 'UX/UI',
-    },
-]
+  {
+    img: ProjectImgSix,
+    title: "ARCHITECTURE SIMPLIFIED",
+    tag: "Build",
+    link: "https://arch-simplified.com/"
+
+  },
+  {
+    img: ProjectImgTwo,
+    title: "Cricket Scoreboard",
+    tag: "Build",
+    link: "https://www.linkedin.com/pulse/cricket-scoreboard-design-develop-engagestation-uk-ltd%3FtrackingId=8qTNwXUGT7GGsjUgh3tJUg%253D%253D/?trackingId=8qTNwXUGT7GGsjUgh3tJUg%3D%3D"
+  },
+  {
+    img: ProjectImgThree,
+    title: "Betting Platform",
+    tag: "UX/UI",
+    link: "https://www.linkedin.com/pulse/indibet-portal-design-develop-engagestation-uk-ltd%3FtrackingId=brYqrRWjSn2aPdH7k5LAJA%253D%253D/?trackingId=brYqrRWjSn2aPdH7k5LAJA%3D%3D"
+
+  },
+  {
+    img: ProjectImgEight,
+    title: "SocialWorks",
+    tag: "UX/UI",
+    link: "https://www.linkedin.com/pulse/less-more-engagestation-uk-ltd%3FtrackingId=oq8ILtyvTju3XtrgvN5NQw%253D%253D/?trackingId=oq8ILtyvTju3XtrgvN5NQw%3D%3D"
+
+  },
+  {
+    img: ProjectImgNine,
+    title: "VisualSkies",
+    tag: "Build",
+    link: "https://visualskies.com/"
+
+  },
+  {
+    img: ProjectImgFive,
+    title: "SalesImpact.io",
+    tag: "Build",
+    link: "https://www.salesimpact.io/home/"
+
+  },
+  {
+    img: ProjectImgTen,
+    title: "VisitBritian",
+    tag: "UX/UI",
+    link: "https://www.visitbritain.org/"
+
+  },
+  {
+    img: ProjectImgSeven,
+    title: "DecimalCricket",
+    tag: "UX/UI",
+    link: "https://www.intelligentcricket.com/about"
+  },
+];
 
 export default function StandardImageList() {
-    const [tag, setTag] = useState('all')
-    const [filteredImages, setFilteredImages] = useState([])
+  const [tag, setTag] = useState("all");
+  const [filteredImages, setFilteredImages] = useState([]);
 
-    const [open, setOpen] = React.useState(false);
+  const [open, setOpen] = React.useState(false);
   const handleClose = () => {
     setOpen(false);
   };
@@ -195,25 +92,38 @@ export default function StandardImageList() {
     setOpen(!open);
   };
 
-    useEffect(() => {
-        tag === 'all' ? setFilteredImages(images) : setFilteredImages(images.filter((images) => images.tag === tag))
-    }, [tag])
-    const TagButton = ({ name, handleSetTag }) => {
-        return <button onClick={() => handleSetTag(name)}>{name.toUpperCase()}</button>
-    }
+  useEffect(() => {
+    tag === "all"
+      ? setFilteredImages(images)
+      : setFilteredImages(images.filter((images) => images.tag === tag));
+  }, [tag]);
+  const TagButton = ({ name, handleSetTag }) => {
     return (
-        <div>
-            <div>
-                <ImageList cols={3} className={imageContainer}>
-                    {filteredImages.map((item) => (
-                        <ImageListItem key={item.img}>
-                            <a href={`${item.img}`}></a>
-                            <img id="imageContainer" src={`${item.img}?w=164&h=164&fit=crop&auto=format`} srcSet={`${item.img}?w=164&h=164&fit=crop&auto=format&dpr=2 2x`} alt={item.title} />
-                            <p id="show">{item.title}</p>
-                        </ImageListItem>
-                    ))}
-                </ImageList>
-            </div>
-        </div>
-    )
+      <button onClick={() => handleSetTag(name)}>{name.toUpperCase()}</button>
+    );
+  };
+  return (
+    <div>
+      <div>
+        
+        <ImageList cols={2} gap={0} className="imageContainer">
+          {filteredImages.map((item) => (
+            <ImageListItem key={item.img} >
+              <img
+                id="imageContainer"
+                src={`${item.img}?w=164&h=164&fit=crop&auto=format`}
+                srcSet={`${item.img}?w=164&h=164&fit=crop&auto=format&dpr=2 2x`}
+                alt={item.title}
+              />
+              <div className="titleContainer">
+              <a href={`${item.link}`} target="_blank">
+                <p id="show">{item.title}</p>
+                </a>
+              </div>
+            </ImageListItem>
+          ))}
+        </ImageList>
+      </div>
+    </div>
+  );
 }

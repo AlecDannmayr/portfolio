@@ -2,8 +2,8 @@
 
 import React, { useState, useEffect } from "react";
 import "../css/style.css";
-import Development from "../images/develop.svg";
 import Alec from "../images/Alec.jpeg";
+
 function About() {
   return (
     <>

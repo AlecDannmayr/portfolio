@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "./static/css/main.8772151f.css",
+    "main.js": "./static/js/main.163188cd.js",
+    "static/media/Gurgaon.png": "./static/media/Gurgaon.b8c47315f9c6a4be9bad.png",
+    "static/media/Brock.jpg": "./static/media/Brock.5fd38196354263e19728.jpg",
+    "static/media/fremont.jpg": "./static/media/fremont.c3010ae1fdbb4540006e.jpg",
+    "static/media/Bellevue.jpg": "./static/media/Bellevue.a2ff2cc6106c63cf1abf.jpg",
+    "static/media/singapore.jpg": "./static/media/singapore.f2c22e31569c8e14929d.jpg",
+    "static/media/nychy.jpg": "./static/media/nychy.9e767495cf24aa35df14.jpg",
+    "static/media/rlburlingame.jpg": "./static/media/rlburlingame.44396b7ca9b68b5b0dfe.jpg",
+    "static/media/sunnyvale.jpg": "./static/media/sunnyvale.34d734a1e681114ac829.jpg",
+    "static/media/Kings-Cross.jpg": "./static/media/Kings-Cross.93c9e400e93426c89c08.jpg",
+    "static/media/willows.jpg": "./static/media/willows.8630b0fc6a6b280a136b.jpg",
+    "static/media/Gurgaon.jpg": "./static/media/Gurgaon.e83812c1ea268a893f5b.jpg",
+    "static/media/mpk-mini-square.jpg": "./static/media/mpk-mini-square.9261711fd2b0104335fe.jpg",
+    "static/media/Optimistic_Display_Md.ttf": "./static/media/Optimistic_Display_Md.4e967135a873d1950248.ttf",
+    "static/media/Project-Rethink.jpg": "./static/media/Project-Rethink.f0985a13bf8cfd79d613.jpg",
+    "static/media/mpk.jpg": "./static/media/mpk.8fc2fc92cff8350837b1.jpg",
+    "static/media/Optimistic_Text_Rg.ttf": "./static/media/Optimistic_Text_Rg.9303e9032d73e51b2c55.ttf",
+    "static/media/Austin.jpg": "./static/media/Austin.07014ffe26658f30b65e.jpg",
+    "static/media/Arrow.png": "./static/media/Arrow.854d1beb44bf2f47b4ba.png",
+    "static/media/Meta_Logo.svg": "./static/media/Meta_Logo.6d82cb1088d03ced7535b31fe2194838.svg",
+    "static/media/404_link.svg": "./static/media/404_link.ed7cdc3bdb0ddb706d2c9b06da43c528.svg",
+    "index.html": "./index.html",
+    "main.8772151f.css.map": "./static/css/main.8772151f.css.map",
+    "main.163188cd.js.map": "./static/js/main.163188cd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8772151f.css",
+    "static/js/main.163188cd.js"
+  ]
+}

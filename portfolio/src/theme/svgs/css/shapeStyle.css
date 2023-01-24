@@ -18,36 +18,36 @@
 }
 
 #triangle {
-  z-index: -100;
-  position: absolute;
   stroke: currentColor;
   fill: none;
   color: ORANGE;
   width: 13rem;
   left: 10%;
   top: 20%;
+  z-index: -100;
+  position: absolute;
 }
 
 #square {
-  z-index: -100;
-  position: absolute;
   stroke: none;
   fill: currentcolor;
   color: #805ad5;
   width: 8rem;
   left: 5%;
   top: 90%;
+  z-index: -100;
+  position: absolute;
 }
 
 #cross {
-  z-index: -100;
-  position: absolute;
   stroke: currentColor;
   fill: none;
   color: #ed64a6;
   width: 4.5rem;
   left: 28%;
   top: 15%;
+  z-index: -100;
+  position: absolute;
 }
 
 #arrowUp {
@@ -56,96 +56,96 @@
 }
 
 #hexagon {
-  z-index: -100;
-  position: absolute;
   stroke: currentColor;
   fill: none;
   color: #e53e3e;
   width: 13rem;
   left: 60%;
   top: 50%;
+  z-index: -100;
+  position: absolute;
 }
 
 #circle {
-  position: absolute;
-  stroke: none;
-  fill: currentcolor;
-  z-index: -100;
   color: #48bb78;
   width: 16rem;
   right: -3%;
   top: 5%;
-}
-
-#doubleTriangle {
   position: absolute;
   stroke: none;
   fill: currentcolor;
   z-index: -100;
+}
+
+#doubleTriangle {
   color: #3182ce;
   width: 4rem;
   left: 80%;
   top: 10%;
-}
-
-#static-square-1 {
   position: absolute;
   stroke: none;
   fill: currentcolor;
   z-index: -100;
-  z-index: -100;
+}
+
+#static-square-1 {
   color: #2d3748;
   width: 3rem;
   left: 40%;
   top: 30%;
-}
-
-#static-square-2 {
   position: absolute;
   stroke: none;
   fill: currentcolor;
   z-index: -100;
   z-index: -100;
+}
+
+#static-square-2 {
   color: #2d3748;
   width: 1.5rem;
   left: 10%;
   top: 10%;
-}
-
-#static-square-3 {
   position: absolute;
   stroke: none;
   fill: currentcolor;
   z-index: -100;
   z-index: -100;
+}
+
+#static-square-3 {
   color: #4a5568;
   width: 1.5rem;
   left: 60%;
   top: 15%;
-}
-
-#static-square-4 {
   position: absolute;
   stroke: none;
   fill: currentcolor;
   z-index: -100;
   z-index: -100;
+}
+
+#static-square-4 {
   color: #ed8936;
   width: 1.5rem;
   left: 10%;
   top: 134%;
-}
-
-#static-square-5 {
   position: absolute;
   stroke: none;
   fill: currentcolor;
   z-index: -100;
   z-index: -100;
+}
+
+#static-square-5 {
   color: #ecc94b;
   width: 3rem;
   left: 29%;
   top: 166%;
+  position: absolute;
+  stroke: none;
+  fill: currentcolor;
+  z-index: -100;
+  z-index: -100;
 }
 
 #static-square-6 {

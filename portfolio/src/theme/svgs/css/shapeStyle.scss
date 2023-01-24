@@ -3,647 +3,652 @@
 @import 'responsive.css';
 
 @mixin all {
-    z-index: -100;
+  z-index: -100;
 }
 
 @mixin position {
-    position: absolute;
-    stroke: none;
-    fill: currentcolor;
-    z-index: -100;
+  position: absolute;
+  stroke: none;
+  fill: currentcolor;
+  z-index: -100;
 }
 
 @mixin position-stroke {
-    position: absolute;
-    stroke: currentColor;
-    z-index: -100;
+  position: absolute;
+  stroke: currentColor;
+  z-index: -100;
 }
 
 @mixin theme() {
-    @include position;
-    z-index: -100;
+  @include position;
+  z-index: -100;
 }
 
 #arrowDown {
-    background-color: yellow;
-    @include all;
+  background-color: yellow;
+  @include all;
 }
 
 #doubleArrow {
-    @include all;
-    position: absolute;
-    stroke: none;
-    fill: currentcolor;
-    color: #4a5568;
-    width: 6rem;
-    left: 40%;
-    top: 70%;
-    z-index: -101;
+  @include all;
+  position: absolute;
+  stroke: none;
+  fill: currentcolor;
+  color: #4a5568;
+  width: 6rem;
+  left: 40%;
+  top: 70%;
+  z-index: -101;
 }
 
 #triangle {
-    @include all position: absolute;
-    stroke: currentColor;
-    fill: none;
-    color: ORANGE;
-    width: 13rem;
-    left: 10%;
-    top: 20%;
+  stroke: currentColor;
+  fill: none;
+  color: ORANGE;
+  width: 13rem;
+  left: 10%;
+  top: 20%;
+  @include all;
+   position: absolute;
 }
 
 #square {
-    @include all position: absolute;
-    stroke: none;
-    fill: currentcolor;
-    color: #805ad5;
-    width: 8rem;
-    left: 5%;
-    top: 90%;
+  stroke: none;
+  fill: currentcolor;
+  color: #805ad5;
+  width: 8rem;
+  left: 5%;
+  top: 90%;
+  @include all;
+   position: absolute;
 }
 
 #cross {
-    @include all position: absolute;
-    stroke: currentColor;
-    fill: none;
-    color: #ed64a6;
-    width: 4.5rem;
-    left: 28%;
-    top: 15%;
+  stroke: currentColor;
+  fill: none;
+  color: #ed64a6;
+  width: 4.5rem;
+  left: 28%;
+  top: 15%;
+  @include all;
+   position: absolute;
 }
 
 #arrowUp {
-    @include all background-color: purple;
+  @include all;
+   background-color: purple;
 }
 
 #hexagon {
-    @include all position: absolute;
-    stroke: currentColor;
-    fill: none;
-    color: #e53e3e;
-    width: 13rem;
-    left: 60%;
-    top: 50%;
+  stroke: currentColor;
+  fill: none;
+  color: #e53e3e;
+  width: 13rem;
+  left: 60%;
+  top: 50%;
+  @include all;
+   position: absolute;
 }
 
 #circle {
-    @include position;
-    color: #48bb78;
-    width: 16rem;
-    right: -3%;
-    top: 5%;
+  color: #48bb78;
+  width: 16rem;
+  right: -3%;
+  top: 5%;
+  @include position;
 }
 
 #doubleTriangle {
-    @include position;
-    color: #3182ce;
-    width: 4rem;
-    left: 80%;
-    top: 10%;
+  color: #3182ce;
+  width: 4rem;
+  left: 80%;
+  top: 10%;
+  @include position;
 }
 
 #static-square-1 {
-    @include theme;
-    color: #2d3748;
-    width: 3rem;
-    left: 40%;
-    top: 30%;
+  color: #2d3748;
+  width: 3rem;
+  left: 40%;
+  top: 30%;
+  @include theme;
 }
 
 #static-square-2 {
-    @include theme;
-    color: #2d3748;
-    width: 1.5rem;
-    left: 10%;
-    top: 10%;
+  color: #2d3748;
+  width: 1.5rem;
+  left: 10%;
+  top: 10%;
+  @include theme;
 }
 
 #static-square-3 {
-    @include theme;
-    color: #4a5568;
-    width: 1.5rem;
-    left: 60%;
-    top: 15%;
+  color: #4a5568;
+  width: 1.5rem;
+  left: 60%;
+  top: 15%;
+  @include theme;
 }
 
 #static-square-4 {
-    @include theme;
-    color: #ed8936;
-    width: 1.5rem;
-    left: 10%;
-    top: 134%;
+  color: #ed8936;
+  width: 1.5rem;
+  left: 10%;
+  top: 134%;
+  @include theme;
 }
 
 #static-square-5 {
-    @include theme;
-    color: #ecc94b;
-    width: 3rem;
-    left: 29%;
-    top: 166%;
+  color: #ecc94b;
+  width: 3rem;
+  left: 29%;
+  top: 166%;
+  @include theme;
 }
 
 #static-square-6 {
-    @include theme;
-    color: #fff;
-    width: 1.5rem;
-    left: 85%;
-    top: 225%;
+  @include theme;
+  color: #fff;
+  width: 1.5rem;
+  left: 85%;
+  top: 225%;
 }
 
 #static-square-7 {
-    @include theme;
-    color: #ed8936;
-    width: 2rem;
-    left: 10%;
-    top: 300%;
+  @include theme;
+  color: #ed8936;
+  width: 2rem;
+  left: 10%;
+  top: 300%;
 }
 
 #static-square-8 {
-    @include theme;
-    color: #3182ce;
-    width: 1.5rem;
-    left: 50%;
-    top: 325%;
+  @include theme;
+  color: #3182ce;
+  width: 1.5rem;
+  left: 50%;
+  top: 325%;
 }
 
 #static-square-9 {
-    @include theme;
-    color: #2d3748;
-    width: 3rem;
-    left: 20%;
-    top: 270%;
+  @include theme;
+  color: #2d3748;
+  width: 3rem;
+  left: 20%;
+  top: 270%;
 }
 
 #static-circle-1 {
-    @include theme;
-    color: #2d3748;
-    width: 3rem;
-    left: 40%;
-    top: 30%;
+  @include theme;
+  color: #2d3748;
+  width: 3rem;
+  left: 40%;
+  top: 30%;
 }
 
 #static-circle-2 {
-    @include theme;
-    color: #2d3748;
-    width: 1.5rem;
-    left: 10%;
-    top: 10%;
+  @include theme;
+  color: #2d3748;
+  width: 1.5rem;
+  left: 10%;
+  top: 10%;
 }
 
 #static-circle-3 {
-    @include theme;
-    color: #4a5568;
-    width: 1.5rem;
-    left: 60%;
-    top: 15%;
+  @include theme;
+  color: #4a5568;
+  width: 1.5rem;
+  left: 60%;
+  top: 15%;
 }
 
 #static-circle-4 {
-    @include theme;
-    color: #ed8936;
-    width: 1.5rem;
-    left: 10%;
-    top: 134%;
+  @include theme;
+  color: #ed8936;
+  width: 1.5rem;
+  left: 10%;
+  top: 134%;
 }
 
 #static-circle-5 {
-    @include theme;
-    color: #ecc94b;
-    width: 3rem;
-    left: 29%;
-    top: 166%;
+  @include theme;
+  color: #ecc94b;
+  width: 3rem;
+  left: 29%;
+  top: 166%;
 }
 
 #static-circle-6 {
-    @include theme;
-    color: #fff;
-    width: 1.5rem;
-    left: 85%;
-    top: 225%;
+  @include theme;
+  color: #fff;
+  width: 1.5rem;
+  left: 85%;
+  top: 225%;
 }
 
 #static-circle-7 {
-    @include theme;
-    color: #ed8936;
-    width: 2rem;
-    left: 10%;
-    top: 300%;
+  @include theme;
+  color: #ed8936;
+  width: 2rem;
+  left: 10%;
+  top: 300%;
 }
 
 #static-circle-8 {
-    @include theme;
-    color: #3182ce;
-    width: 1.5rem;
-    left: 50%;
-    top: 325%;
+  @include theme;
+  color: #3182ce;
+  width: 1.5rem;
+  left: 50%;
+  top: 325%;
 }
 
 #static-circle-9 {
-    @include theme;
-    color: #2d3748;
-    width: 3rem;
-    left: 20%;
-    top: 270%;
+  @include theme;
+  color: #2d3748;
+  width: 3rem;
+  left: 20%;
+  top: 270%;
 }
 
 #static-circle-10 {
-    @include theme;
-    color: #ecc94b;
-    width: 3rem;
-    left: 29%;
-    top: 166%;
+  @include theme;
+  color: #ecc94b;
+  width: 3rem;
+  left: 29%;
+  top: 166%;
 }
 
 #static-circle-11 {
-    @include theme;
-    color: #fff;
-    width: 1.5rem;
-    left: 85%;
-    top: 225%;
+  @include theme;
+  color: #fff;
+  width: 1.5rem;
+  left: 85%;
+  top: 225%;
 }
 
 #static-circle-12 {
-    @include theme;
-    color: #ed8936;
-    width: 2rem;
-    left: 10%;
-    top: 300%;
+  @include theme;
+  color: #ed8936;
+  width: 2rem;
+  left: 10%;
+  top: 300%;
 }
 
 #static-circle-13 {
-    @include theme;
-    color: #3182ce;
-    width: 1.5rem;
-    left: 50%;
-    top: 325%;
+  @include theme;
+  color: #3182ce;
+  width: 1.5rem;
+  left: 50%;
+  top: 325%;
 }
 
 #static-circle-14 {
-    @include theme;
-    color: #2d3748;
-    width: 3rem;
-    left: 20%;
-    top: 270%;
+  @include theme;
+  color: #2d3748;
+  width: 3rem;
+  left: 20%;
+  top: 270%;
 }
 
 #static-circle-15 {
-    @include theme;
-    color: #2d3748;
-    width: 3rem;
-    left: 20%;
-    top: 270%;
+  @include theme;
+  color: #2d3748;
+  width: 3rem;
+  left: 20%;
+  top: 270%;
 }
 
 #static-triangle-1 {
-    color: #4a5568;
-    @include position-stroke;
-    fill: none;
-    width: 2rem;
-    left: 25%;
-    top: 5%;
+  color: #4a5568;
+  @include position-stroke;
+  fill: none;
+  width: 2rem;
+  left: 25%;
+  top: 5%;
 }
 
 #static-triangle-2 {
-    @include position-stroke;
-    fill: none;
-    color: #fff;
-    width: 3rem;
-    left: 90%;
-    top: 50%;
+  @include position-stroke;
+  fill: none;
+  color: #fff;
+  width: 3rem;
+  left: 90%;
+  top: 50%;
 }
 
 #static-triangle-3 {
-    @include position-stroke;
-    fill: none;
+  @include position-stroke;
+  fill: none;
 
-    color: #2d3748;
-    width: 4rem;
-    left: 30%;
-    top: 65%;
+  color: #2d3748;
+  width: 4rem;
+  left: 30%;
+  top: 65%;
 }
 
 #static-triangle-4 {
-    @include position-stroke;
-    fill: none;
-    color: #ed8936;
-    width: 2rem;
-    left: 25%;
-    top: 130%;
+  @include position-stroke;
+  fill: none;
+  color: #ed8936;
+  width: 2rem;
+  left: 25%;
+  top: 130%;
 }
 
 #static-triangle-5 {
-    @include position-stroke;
-    fill: none;
-    color: #fff;
-    width: 3rem;
-    left: 90%;
-    top: 170%;
+  @include position-stroke;
+  fill: none;
+  color: #fff;
+  width: 3rem;
+  left: 90%;
+  top: 170%;
 }
 
 #static-triangle-6 {
-    @include position-stroke;
-    fill: none;
-    color: #fff;
-    width: 4rem;
-    left: 18%;
-    top: 335%;
+  @include position-stroke;
+  fill: none;
+  color: #fff;
+  width: 4rem;
+  left: 18%;
+  top: 335%;
 }
 
 #static-triangle-7 {
-    @include position-stroke;
-    fill: none;
-    color: #02b4fa;
-    width: 2rem;
-    left: 25%;
-    top: 300%;
+  @include position-stroke;
+  fill: none;
+  color: #02b4fa;
+  width: 2rem;
+  left: 25%;
+  top: 300%;
 }
 
 #static-triangle-8 {
-    @include position-stroke;
-    fill: none;
-    color: var(--theme-ui-colors-icon_brightest);
-    width: 3rem;
-    left: 95%;
-    top: 450%;
+  @include position-stroke;
+  fill: none;
+  color: var(--theme-ui-colors-icon_brightest);
+  width: 3rem;
+  left: 95%;
+  top: 450%;
 }
 
 #static-triangle-9 {
-    @include position-stroke;
-    fill: none;
-    color: #3182ce;
-    width: 6rem;
-    left: 55%;
-    top: 250%;
+  @include position-stroke;
+  fill: none;
+  color: #3182ce;
+  width: 6rem;
+  left: 55%;
+  top: 250%;
 }
 
 #static-triangle-10 {
-    @include position-stroke;
-    fill: none;
-    color: #02b4fa;
-    width: 6rem;
-    left: 15%;
-    top: 200%;
+  @include position-stroke;
+  fill: none;
+  color: #02b4fa;
+  width: 6rem;
+  left: 15%;
+  top: 200%;
 }
 
 #static-triangle-11 {
-    @include position-stroke;
-    fill: none;
-    color: #2d3748;
-    width: 6rem;
-    left: 65%;
-    top: 130%;
+  @include position-stroke;
+  fill: none;
+  color: #2d3748;
+  width: 6rem;
+  left: 65%;
+  top: 130%;
 }
 
 #static-circle-1 {
-    @include position;
-    color: #2d3748;
-    width: 1.5rem;
-    left: 4%;
-    top: 20%;
+  @include position;
+  color: #2d3748;
+  width: 1.5rem;
+  left: 4%;
+  top: 20%;
 }
 
 #static-circle-2 {
-    @include position;
-    color: #2d3748;
-    width: 3rem;
-    left: 50%;
-    top: 60%;
+  @include position;
+  color: #2d3748;
+  width: 3rem;
+  left: 50%;
+  top: 60%;
 }
 
 #static-circle-3 {
-    @include position;
-    color: #4a5568;
-    width: 6rem;
-    left: 5%;
-    top: 70%;
+  @include position;
+  color: #4a5568;
+  width: 6rem;
+  left: 5%;
+  top: 70%;
 }
 
 #static-circle-4 {
-    @include position-stroke;
-    fill: currentcolor;
-    color: #2d3748;
-    width: 1.5rem;
-    left: 75%;
-    top: 10%;
+  @include position-stroke;
+  fill: currentcolor;
+  color: #2d3748;
+  width: 1.5rem;
+  left: 75%;
+  top: 10%;
 }
 
 #static-circle-5 {
-    @include position;
-    color: #4a5568;
-    width: 4rem;
-    left: 70%;
-    top: 90%;
+  @include position;
+  color: #4a5568;
+  width: 4rem;
+  left: 70%;
+  top: 90%;
 }
 
 #static-circle-6 {
-    @include position;
-    color: #fff;
-    width: 1.5rem;
-    left: 4%;
-    top: 160%;
+  @include position;
+  color: #fff;
+  width: 1.5rem;
+  left: 4%;
+  top: 160%;
 }
 
 #static-circle-7 {
-    @include position;
-    color: #fff;
-    width: 1.5rem;
-    left: 4%;
-    top: 170%;
+  @include position;
+  color: #fff;
+  width: 1.5rem;
+  left: 4%;
+  top: 170%;
 }
 
 #static-circle-8 {
-    @include position;
-    color: #fff;
-    width: 6rem;
-    left: 17%;
-    top: 230%;
+  @include position;
+  color: #fff;
+  width: 6rem;
+  left: 17%;
+  top: 230%;
 }
 
 #static-circle-9 {
-    @include position;
-    color: #ecc94b;
-    width: 4rem;
-    left: 70%;
-    top: 300%;
+  @include position;
+  color: #ecc94b;
+  width: 4rem;
+  left: 70%;
+  top: 300%;
 }
 
 #static-circle-10 {
-    @include position;
-    color: #fff;
-    width: 1.5rem;
-    left: 4%;
-    top: 330%;
+  @include position;
+  color: #fff;
+  width: 1.5rem;
+  left: 4%;
+  top: 330%;
 }
 
 #static-circle-11 {
-    @include position;
-    color: #2d3748;
-    width: 3rem;
-    left: 70%;
-    top: 400%;
+  @include position;
+  color: #2d3748;
+  width: 3rem;
+  left: 70%;
+  top: 400%;
 }
 
 #static-circle-12 {
-    @include position;
-    color: white;
-    width: 1rem;
-    left: 90%;
-    top: 330%;
+  @include position;
+  color: white;
+  width: 1rem;
+  left: 90%;
+  top: 330%;
 }
 
 #static-circle-13 {
-    @include position;
-    color: rgb(226, 226, 43);
-    width: 2.5rem;
-    left: 45%;
-    top: 140%;
+  @include position;
+  color: rgb(226, 226, 43);
+  width: 2.5rem;
+  left: 45%;
+  top: 140%;
 }
 
 #static-circle-14 {
-    @include position;
-    color: rgb(226, 226, 43);
-    width: 6rem;
-    left: 25%;
-    top: 370%;
+  @include position;
+  color: rgb(226, 226, 43);
+  width: 6rem;
+  left: 25%;
+  top: 370%;
 }
 
 #static-circle-15 {
-    @include position;
-    color: #ffffff;
-    width: 3rem;
-    left: 10%;
-    top: 460%;
+  @include position;
+  color: #ffffff;
+  width: 3rem;
+  left: 10%;
+  top: 460%;
 }
 
 #static-hexagon-1 {
-    @include position-stroke;
-    fill: none;
-    color: #4a5568;
-    width: 4rem;
-    left: 10%;
-    top: 50%;
+  @include position-stroke;
+  fill: none;
+  color: #4a5568;
+  width: 4rem;
+  left: 10%;
+  top: 50%;
 }
 
 #static-hexagon-2 {
-    @include position-stroke;
-    fill: none;
-    color: #e53e3e;
-    width: 4rem;
-    left: 75%;
-    top: 200%;
+  @include position-stroke;
+  fill: none;
+  color: #e53e3e;
+  width: 4rem;
+  left: 75%;
+  top: 200%;
 }
 #static-hexagon-3 {
-    @include position-stroke;
-    fill: none;
-    color: #4a5568;
-    width: 2rem;
-    left: 20%;
-    top: 370%;
+  @include position-stroke;
+  fill: none;
+  color: #4a5568;
+  width: 2rem;
+  left: 20%;
+  top: 370%;
 }
 
 #static-hexagon-4 {
-    @include position-stroke;
-    fill: none;
-    color: #4a5568;
-    width: 5rem;
-    left: 40%;
-    top: 430%;
+  @include position-stroke;
+  fill: none;
+  color: #4a5568;
+  width: 5rem;
+  left: 40%;
+  top: 430%;
 }
 
 #static-hexagon-5 {
-    @include position-stroke;
-    fill: none;
-    color: #fff;
-    width: 2rem;
-    left: 80%;
-    top: 60%;
+  @include position-stroke;
+  fill: none;
+  color: #fff;
+  width: 2rem;
+  left: 80%;
+  top: 60%;
 }
 
 #static-doubleArrow-1 {
-    @include position;
-    color: #2d3748;
-    width: 2rem;
-    left: 45%;
-    top: 10%;
+  @include position;
+  color: #2d3748;
+  width: 2rem;
+  left: 45%;
+  top: 10%;
 }
 
 #static-doubleArrow-2 {
-    @include position;
-    color: #2d3748;
-    width: 2rem;
-    left: 95%;
-    top: 90%;
+  @include position;
+  color: #2d3748;
+  width: 2rem;
+  left: 95%;
+  top: 90%;
 }
 
 #static-doubleArrow-3 {
-    @include position;
-    color: #48bb78;
-    width: 2rem;
-    left: 45%;
-    top: 210%;
+  @include position;
+  color: #48bb78;
+  width: 2rem;
+  left: 45%;
+  top: 210%;
 }
 
 #static-doubleArrow-4 {
-    @include position;
+  @include position;
 
-    width: 2rem;
-    left: 70%;
-    top: 170%;
+  width: 2rem;
+  left: 70%;
+  top: 170%;
 }
 
 #static-doubleArrow-5 {
-    @include position;
-    color: #bb4848;
-    width: 2rem;
-    left: 45%;
-    top: 410%;
+  @include position;
+  color: #bb4848;
+  width: 2rem;
+  left: 45%;
+  top: 410%;
 }
 
 #static-doubleArrow-6 {
-    @include position;
-    color: #bb4848;
-    width: 2rem;
-    left: 75%;
-    top: 270%;
+  @include position;
+  color: #bb4848;
+  width: 2rem;
+  left: 75%;
+  top: 270%;
 }
 
 #static-doubleArrow-7 {
-    @include position;
-    color: #4a5568;
-    width: 2rem;
-    left: 15%;
-    top: 400%;
+  @include position;
+  color: #4a5568;
+  width: 2rem;
+  left: 15%;
+  top: 400%;
 }
 
 #static-doubleArrow-8 {
-    @include position;
-    color: #bb4848;
-    width: 8rem;
-    left: 75%;
-    top: 430%;
+  @include position;
+  color: #bb4848;
+  width: 8rem;
+  left: 75%;
+  top: 430%;
 }
 
 #static-doubleTriangle-1 {
-    @include position;
-    color: #bb4848;
-    width: 5rem;
-    left: 17%;
-    top: 150%;
+  @include position;
+  color: #bb4848;
+  width: 5rem;
+  left: 17%;
+  top: 150%;
 }
 
 #static-doubleTriangle-2 {
-    @include position;
-    color: ORANGE;
-    width: 5rem;
-    left: 77%;
-    top: 350%;
+  @include position;
+  color: ORANGE;
+  width: 5rem;
+  left: 77%;
+  top: 350%;
 }
 
 #static-doubleTriangle-3 {
-    @include position;
-    color: ORANGE;
-    width: 2rem;
-    left: 77%;
-    top: 110%;
+  @include position;
+  color: ORANGE;
+  width: 2rem;
+  left: 77%;
+  top: 110%;
 }
 
 #hexagon,
@@ -658,19 +663,19 @@
 #static-doubleArrow-6,
 #static-square-7,
 #static-doubleArrow-8 {
-    animation: down-pulse 10s ease infinite;
+  animation: down-pulse 10s ease infinite;
 }
 
 @keyframes down-pulse {
-    0% {
-        transform: translateY(0);
-    }
-    50% {
-        transform: translateY(30px);
-    }
-    100% {
-        transform: translateY(0);
-    }
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(30px);
+  }
+  100% {
+    transform: translateY(0);
+  }
 }
 
 #static-triangle-2,
@@ -683,17 +688,17 @@
 #static-doubleTriangle-2,
 #static-circle-14,
 #static-triangle-6 {
-    animation: down-up 24s ease infinite;
+  animation: down-up 24s ease infinite;
 }
 
 @keyframes down-up {
-    0% {
-        transform: translateY(0);
-    }
-    50% {
-        transform: translateY(100px);
-    }
-    100% {
-        transform: translateY(0);
-    }
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(100px);
+  }
+  100% {
+    transform: translateY(0);
+  }
 }

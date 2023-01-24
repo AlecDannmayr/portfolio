@@ -2,8 +2,6 @@ import React from "react";
 import "../css/style.css";
 
 const Copyright = (props) => {
-  console.log(props.themeToggled);
-
   let fill;
   if (props.themeToggled === "light") {
     fill = "#202A44";
@@ -11,7 +9,6 @@ const Copyright = (props) => {
     fill = "#d2c8b7";
   }
 
-  console.log(fill);
   return (
     <div className={"copyright"}>
       <svg

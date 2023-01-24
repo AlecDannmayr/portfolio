@@ -9,7 +9,6 @@ function About() {
   const handleScroll = () => setOffsetY(window.pageYOffset);
   useEffect(() => {
     window.addEventListener("scroll", handleScroll);
-
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
