@@ -1,0 +1,27 @@
+.header p a {
+  padding: 12px 0px;
+  position: relative;
+}
+
+.header p a::before {
+  -webkit-transition: 300ms;
+  transition: 300ms;
+  height: 1px;
+  content: "";
+  position: absolute;
+  background-color: #4b89ff;
+  -webkit-transition-timing-function: ease-out;
+          transition-timing-function: ease-out;
+  opacity: 0;
+}
+
+.header p a::before {
+  width: 30%;
+  bottom: 10px;
+}
+
+.header p a:hover::before {
+  width: 100%;
+  opacity: 1;
+}
+/*# sourceMappingURL=animations.css.map */
