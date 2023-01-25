@@ -19,9 +19,6 @@ const Nav = (props) => {
     props.onChangeSwitch(event);
   };
   
-
-
-
   return (
     <>
       <div className="nav-main">
@@ -38,7 +35,7 @@ const Nav = (props) => {
           <Link to="/projects">
             <FaThLarge />
           </Link>
-          <Link to="/blog">
+          <Link to={{ pathname: "https://herewecode.io/" }} target="_blank">
             <FaGithub />
           </Link>
           <Link to="/contacts">
