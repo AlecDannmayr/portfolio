@@ -3,7 +3,6 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Background from "./theme/backGroundShapes";
 import Nav from "./components/nav";
 import "./css/style.css";
-import "./theme/svgs/css/responsive.css";
 import Intro from "./pages/intro";
 import About from "./pages/about";
 import Projects from "../src/pages/projects";

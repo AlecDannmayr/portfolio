@@ -35,12 +35,12 @@ const Nav = (props) => {
           <Link to="/projects">
             <FaThLarge />
           </Link>
-          <Link to={{ pathname: "https://herewecode.io/" }} target="_blank">
+          <a href="https://github.com/AlecDannmayr" target="_blank">
             <FaGithub />
-          </Link>
-          <Link to="/contacts">
+          </a>
+          <a href="https://www.linkedin.com/in/alec-dannmayr-9bb265109/" target="_blank">
             <FaLinkedinIn />
-          </Link>
+          </a>
           <div className="switch">
             <ReactSwitch
               value={props.themeToggled}

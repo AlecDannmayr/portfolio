@@ -3,7 +3,6 @@
 import React from "react";
 import { useState, useEffect } from "react";
 import "../css/style.css";
-import "../theme/svgs/css/responsive.css";
 import ProjectImgTwo from "../project-images/image-two.png";
 import ProjectImgSix from "../project-images/image-six.png";
 import ProjectImgThree from "../project-images/image-three.png";
@@ -15,6 +14,7 @@ import ProjectImgNine from "../project-images/image-nine.png";
 import ProjectImgTen from "../project-images/image-ten.png";
 import ImageList from "@mui/material/ImageList";
 import ImageListItem from "@mui/material/ImageListItem";
+import Meta from "../project-images/Meta_Office_Tours.png"
 
 const imageContainer = {
   height: "100vh",
@@ -66,6 +66,12 @@ const images = [
 
   },
   {
+    img: Meta,
+    title: "Meta Office Tours",
+    tag: "UX/UI",
+    link: "src/build/index.html"
+  },
+  {
     img: ProjectImgTen,
     title: "VisitBritian",
     tag: "UX/UI",
@@ -76,8 +82,9 @@ const images = [
     img: ProjectImgSeven,
     title: "DecimalCricket",
     tag: "UX/UI",
-    link: "https://www.intelligentcricket.com/about"
+    link: ""
   },
+
 ];
 
 export default function StandardImageList() {
@@ -106,7 +113,7 @@ export default function StandardImageList() {
     <div>
       <div>
         
-        <ImageList cols={2} gap={0} className="imageContainer">
+        <ImageList cols={1} gap={0} className="imageContainer">
           {filteredImages.map((item) => (
             <ImageListItem key={item.img} >
               <img

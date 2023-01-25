@@ -147,6 +147,7 @@ html a:hover {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  font-size: 26px;
 }
 
 .services img {
@@ -167,36 +168,15 @@ html a:hover {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-}
-
-.services div:nth-child(1) {
-  margin-left: calc(5% + 90px);
-  margin-right: 10%;
+  margin-left: 90px;
   -webkit-box-shadow: -15px 29px 035px 8px #000000;
           box-shadow: -15px 29px 035px 8px #000000;
 }
 
-.services div:nth-child(1) p {
+.services div p {
   text-align: center;
   max-width: 600px;
   padding: 20px;
-}
-
-.diagonal-box-one {
-  height: 50vw;
-  text-align: left;
-  opacity: 1;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.diagonal-box-one iframe {
-  border: none;
-  width: 500px;
 }
 
 .copyright,
@@ -204,6 +184,7 @@ html a:hover {
   bottom: 0px;
   width: 100%;
   margin-bottom: -13px;
+  margin-left: 90px;
 }
 
 .copyright iframe,
@@ -285,6 +266,10 @@ html a:hover {
       -ms-flex-pack: center;
           justify-content: center;
   margin-top: 30px;
+}
+
+#show:hover {
+  color: #fbaf3b;
 }
 
 .tags > * {
@@ -388,15 +373,56 @@ html a:hover {
   display: block;
 }
 
-@media screen and (max-width: 912px) {
-  .nav-main {
-    left: -90px;
-    opacity: 0;
+@media screen and (max-width: 1149px) {
+  .services div {
+    -webkit-box-shadow: unset;
+            box-shadow: unset;
+  }
+  .services img {
+    max-width: 50vw;
+    min-width: unset;
   }
 }
 
-#nav-toggle {
-  left: 0px;
-  opacity: 0.7;
+@media screen and (max-width: 560px) {
+  .intro-div #intro-title {
+    font-size: 90px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .intro-div {
+    margin-left: calc(5% + 90px);
+    margin-right: 5%;
+    padding-top: 14%;
+  }
+  .intro-div #intro-title {
+    font-size: 80px;
+  }
+  .intro-div #intro-body {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 422px) {
+  .intro-div {
+    margin-left: calc(5% + 90px);
+    margin-right: 5%;
+  }
+  .intro-div #intro-title {
+    font-size: 70px;
+  }
+  .intro-div #intro-body {
+    font-size: 26px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .intro-div #intro-title {
+    font-size: 17vw;
+  }
+  .intro-div #intro-body {
+    font-size: 7vw;
+  }
 }
 /*# sourceMappingURL=style.css.map */
