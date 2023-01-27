@@ -10,6 +10,7 @@ import {
   FaThLarge,
   FaGithub,
   FaLinkedinIn,
+  FaPhone,
 } from "react-icons/fa";
 
 const Nav = (props) => {
@@ -34,6 +35,9 @@ const Nav = (props) => {
           </Link>
           <Link to="/projects">
             <FaThLarge />
+          </Link>
+          <Link to="/contacts">
+            <FaPhone />
           </Link>
           <a href="https://github.com/AlecDannmayr" target="_blank">
             <FaGithub />

@@ -7,6 +7,7 @@ import Intro from "./pages/intro";
 import About from "./pages/about";
 import Projects from "../src/pages/projects";
 import Copyright from "../src/components/copyright";
+import Contacts from "./pages/contacts"
 
 function App() {
   const [theme, setTheme] = useState("dark");
@@ -23,6 +24,7 @@ function App() {
           <Route path="/" exact element={<Intro />} />
           <Route path="/about" element={<About />} />
           <Route path="/projects" element={<Projects />} />
+          <Route path="/contacts" element={<Contacts />} />
         </Routes>
       </BrowserRouter>
       <Copyright themeToggled={theme} />
