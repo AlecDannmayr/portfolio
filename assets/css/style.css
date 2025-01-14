@@ -340,7 +340,7 @@ main {
 
 .inner-avatar-box  {
   border-radius: 20px;
-  background-image: url('/assets//images/Alec_Dannmayr.png');
+  background-image: url('/assets/images/Alec_Dannmayr.png');
   background-size: cover; /* This makes the image cover the entire box */
   background-position: center; /* This centers the image */
   width: 160px;
