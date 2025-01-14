@@ -1015,6 +1015,7 @@ main {
   height: 100%;
   object-fit: cover;
   transition: var(--transition-1);
+  aspect-ratio: 16 / 9;
 }
 
 .project-item > a:hover img { transform: scale(1.1); }
