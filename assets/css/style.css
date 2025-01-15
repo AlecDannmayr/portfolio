@@ -316,12 +316,12 @@ main {
 
 .sidebar {
   margin-bottom: 15px;
-  max-height: 112px;
+  max-height: 192px;
   overflow: hidden;
   transition: var(--transition-2);
 }
 
-.sidebar.active { max-height: 405px; }
+.sidebar.active { max-height: 485px; }
 
 .sidebar-info {
   position: relative;
@@ -1338,11 +1338,12 @@ textarea.form-input::-webkit-resizer { display: none; }
    */
 
   .sidebar {
-    max-height: 180px;
+    
+    max-height: 220px;
     margin-bottom: 30px;
   }
 
-  .sidebar.active { max-height: 584px; }
+  .sidebar.active { max-height: 684px; }
 
   .sidebar-info { gap: 25px; }
 
@@ -1766,14 +1767,13 @@ textarea.form-input::-webkit-resizer { display: none; }
 }
 
 
-
-
-
 /**
  * responsive larger than 1250px screen
  */
 
 @media (min-width: 1250px) {
+  
+  .sidebar.active { max-height: 784px; }
 
   /**
    * RESET
