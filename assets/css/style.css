@@ -334,15 +334,13 @@ main {
 .avatar-box {
   background: var(--bg-gradient-onyx);
   border-radius: 20px;
-
-  
 }
 
 .inner-avatar-box  {
   border-radius: 20px;
-  background-image: url('/assets/images/Alec_Dannmayr.png');
-  background-size: cover; /* This makes the image cover the entire box */
-  background-position: center; /* This centers the image */
+  background-image: url('../images/Alec_Dannmayr.png'); 
+    background-size: cover; 
+  background-position: center; 
   width: 160px;
   height: 160px;
 }
